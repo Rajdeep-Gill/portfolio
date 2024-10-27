@@ -17,11 +17,11 @@ function HeroSection() {
                             Hi, I'm <span className="text-blue-950 drop-shadow-lg">Rajdeep Gill</span>
                         </h1>
                         <p className="text-xl text-gray-600 mb-8">
-                            I am a Computer Engineering student and welcome to my portfolio.
+                            Computer Engineering Student, Web Developer.
                         </p>
                         <div className="flex justify-center gap-4">
                             <a 
-                                href="https://github.com/yourusername" 
+                                href="https://github.com/Rajdeep-Gill" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className="text-gray-600 hover:text-blue-600 transition"
@@ -29,7 +29,7 @@ function HeroSection() {
                                 <FaGithub size={30} />
                             </a>
                             <a 
-                                href="https://www.linkedin.com/in/yourusername" 
+                                href="https://www.linkedin.com/in/rajdeep-gill-4ab365220" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className="text-gray-600 hover:text-blue-600 transition"
@@ -37,7 +37,7 @@ function HeroSection() {
                                 <FaLinkedin size={30} />
                             </a>
                             <a 
-                                href="mailto:your-email@example.com" 
+                                href="mailto:hi.rajdeepgill@gmail.com" 
                                 className="text-gray-600 hover:text-blue-600 transition"
                             >
                                 <IoIosMail size={30} />

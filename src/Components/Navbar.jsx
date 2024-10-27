@@ -26,7 +26,7 @@ const NavBar = () => {
     <nav
       className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-50 transition-transform ${
         isAtBottom ? 'translate-y-20' : 'translate-y-0'
-      }`}
+      } transition-transform duration-300 ease-in-out`}
     >
       <div className="bg-white/90 backdrop-blur-md px-6 py-4 rounded-full shadow-lg border border-gray-200">
         <ul className="flex items-center gap-8">

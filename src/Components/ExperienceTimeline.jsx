@@ -2,10 +2,9 @@ import React from 'react';
 
 const ExperienceItem = ({ jobTitle, company, location, date, description, tags, isLeft }) => {
   return (
-    <div className={`flex ${isLeft ? 'flex-row-reverse' : 'flex-row'} items-center w-full mb-8`}>
-      <div className={`w-5/12 ${isLeft ? 'pr-8' : 'pl-8'}`}>
-        <div className={`bg-white rounded-lg shadow-xl p-6 relative`}>
-          <div className={`absolute top-6 ${isLeft ? 'left-0' : 'right-0'} w-4 h-4 bg-blue-500 rounded-full -mt-2 ${isLeft ? '-ml-2' : '-mr-2'}`}></div>
+    <div className={`md:flex ${isLeft ? 'md:flex-row-reverse' : 'md:flex-row'} items-center w-full mb-8`}>
+      <div className={`md:w-5/12 ${isLeft ? 'md:pr-8' : 'md:pl-8'}`}>
+        <div className={`bg-white rounded-lg shadow-xl p-6 relative border hover:border-blue-500 transition ease-in-out duration-200`}>
           <h3 className="mb-3 font-bold text-gray-800 text-xl">{jobTitle}</h3>
           <h4 className="mb-3 font-semibold text-gray-700">{company}</h4>
           <p className="text-sm text-gray-600 mb-2">{location} | {date}</p>
