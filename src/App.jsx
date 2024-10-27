@@ -5,7 +5,6 @@ import ProjectCard from "./Components/ProjectCard";
 import ExperienceTimeline from './Components/ExperienceTimeline';
 import CursorEffect from './Components/CursorEffect';
 import SkillsCarousel from './Components/SkillsCarousel';
-import ContactWidget from "./Components/ContactWidget";
 
 function App() {
     const experiences = [
